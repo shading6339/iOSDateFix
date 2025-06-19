@@ -1,6 +1,6 @@
 # iOSDateFix / macOS Terminal Locale Patch Script
 
-macOS のターミナルで `date` や `cal` コマンドが正しく表示されない問題を恒久的に回避するためのスクリプトです。
+macOS のターミナルで `date` や `cal` コマンドが正しく表示されない問題を一時的に回避するためのスクリプトです。
 
 ---
 
@@ -11,9 +11,9 @@ macOS のターミナルで `date` や `cal` コマンドが正しく表示さ�
 例：
 
 Last login: Thu Jun 19 16:14:22 on ttys001
-mongachi@MacBook-Air-2504162T ~ % date
+mongachi@MacBook-Air ~ % date
 #午後
-mongachi@MacBook-Air-2504162T ~ % cal
+mongachi@MacBook-Air ~ % cal
       4月 2025         
 日 月 火 水 木 金 土  
  1  2  3  4  5  6  7  
@@ -70,7 +70,7 @@ export LANG=ja_JP.UTF-8
 ## 📄 ライセンス
 
 MIT License  
-© 2025 智朗
+© 2025 mongachi
 
 ---
 
